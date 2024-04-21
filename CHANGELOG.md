@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+0.51.0
+------
+- Added `--with-shell` option to start child processes with a custom shell command and flags
+  ```sh
+  fzf --with-shell 'ruby -e' --preview 'puts {}.upcase.reverse'
+  ```
+- Bug fixes and improvements
+
 0.50.0
 ------
 - Search performance optimization. You can observe 50%+ improvement in some scenarios.
